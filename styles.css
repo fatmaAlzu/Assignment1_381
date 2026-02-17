@@ -1,0 +1,75 @@
+/* General Page Styling */
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+background-color: #fff7f0;
+}
+
+
+/* Header */
+head {
+display: flex;
+align-items: center;
+background-color: #ffb6c1;
+padding: 10px 20px;
+}
+
+.logo {
+width: 100px;
+height: auto;
+margin-right: 15px;
+}
+
+header h1 {
+margin: 0;
+color: #5a2a27;
+}
+
+/* Navigation Bar */
+.navbar {
+background-color: #ff8fab;
+padding: 10px;
+text-align: center;
+}
+
+.navbar ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.navbar ul li {
+display: inline-block;
+margin: 0 15px;
+}
+
+.navbar a {
+text-decoration: none;
+color: white;
+margin: 0 15px;
+font-weight: bold;
+}
+
+.navbar a:hover {
+text-decoration: underline;
+}
+
+/* Main Content */
+main {
+padding: 20px;
+}
+
+section {
+background-color: white;
+padding: 15px;
+margin-bottom: 20px;
+border-radius: 8px;
+}
+
+/* Footer */
+footer {
+text-align: center;
+background-color: #ffb6c1;
+padding: 10px;
+color: #5a2a27;
+}
