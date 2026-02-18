@@ -1,75 +1,205 @@
 /* General Page Styling */
 body {
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Times New Roman', Times, serif;
+font-size: 12px;
 margin: 0;
-background-color: #fff7f0;
+background-color: #fafbf8;
 }
 
 
 /* Header */
-head {
-display: flex;
-align-items: center;
-background-color: #ffb6c1;
-padding: 10px 20px;
+header{
+    background-color: #f9e2c8;     
+    display: flex;
+    align-items: center;            
+    gap: 10px;                      
+    padding: 15px 30px;
+    border-bottom: 3px solid #e4b48c;
 }
 
-.logo {
-width: 100px;
-height: auto;
-margin-right: 15px;
+/* logo image */
+.logo{
+    width: 45px;
+    height: auto;
 }
 
-header h1 {
-margin: 0;
-color: #5a2a27;
+/* shop name */
+header h1{
+    margin: 0;
+    color: #000000;   
 }
+
 
 /* Navigation Bar */
-.navbar {
-background-color: #ff8fab;
-padding: 10px;
-text-align: center;
+.navbar{
+    background-color: #fff3e0;  
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #e4b48c;
 }
 
-.navbar ul {
-list-style: none;
-padding: 0;
-margin: 0;
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.navbar ul li {
-display: inline-block;
-margin: 0 15px;
+.navbar li{
+    display: inline-block;
 }
 
-.navbar a {
-text-decoration: none;
-color: white;
-margin: 0 15px;
+.navbar a{
+text-decoration: none;   
+color: #5a2a27;          
+background-color: #f28c8c;
 font-weight: bold;
+margin: 0 10px;
+padding: 8px 14px;
+border-radius: 12px;
 }
 
 .navbar a:hover {
 text-decoration: underline;
 }
-
+/*HOMEPAGE SECTION*/
 /* Main Content */
-main {
-padding: 20px;
+main{
+    max-width: 1100px;
+    margin: 40px auto;   /* centers the whole page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section {
-background-color: white;
-padding: 15px;
-margin-bottom: 20px;
-border-radius: 8px;
+main section{
+    background-color: #fff8ee;
+    border-radius: 25px;
+    padding: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
+main ul{
+list-style-position: inside;
+padding-left: 0;
+margin: 10px 0;
+}
+
+main li{
+margin: 6px 0;
+}
+
+
+main h2{
+    text-align: center;
+}
+/* About US*/
+.about{
+    width: 100%;
+}
+.featured{
+    width: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 
 /* Footer */
-footer {
-text-align: center;
-background-color: #ffb6c1;
-padding: 10px;
-color: #5a2a27;
+footer{
+    background-color: #f9e2c8;
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid #e4b48c;
+    color: #5a2a27;
 }
+/*MENU SECTION*/
+/* SEASON DROPDOWN */
+.season-select{
+margin: 25px;
+width: 90%;
+}
+
+select{
+background-color: #fff8ee;
+border-radius: 10px;
+padding: 6px 10px;
+border: 2px solid #e4b48c;
+}
+
+/* TILE CONTAINER (THIS CREATES 3 PER ROW) */
+.tile-container{
+width: 90%;
+margin: auto;
+}
+
+/* ICE CREAM TILES */
+.tile{
+background: #ffffff;
+width: 28%;
+display: inline-block;
+vertical-align: top;
+margin: 15px;
+padding: 15px;
+border-radius: 20px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.tile img{
+width: 160px;
+border-radius: 12px;
+}
+/* SEASONAL SECTION BOX */
+.seasonal-section{
+width: 90%;
+margin: 40px auto;
+background-color: #fff8ee;
+padding: 25px;
+border-radius: 20px;
+}
+
+/* ADD BUTTON (soft pink) */
+.add-btn{
+background-color: #f28c8c;
+color: white;
+border: none;
+padding: 8px 14px;
+border-radius: 12px;
+font-weight: bold;
+cursor: pointer;
+margin: 5px;
+}
+
+/* REMOVE BUTTON (darker red) */
+.remove-btn{
+background-color: #c94c4c;
+color: white;
+border: none;
+padding: 8px 14px;
+border-radius: 12px;
+font-weight: bold;
+cursor: pointer;
+margin: 5px;
+}
+
+
+/* CUSTOMIZE BUTTON */
+.order-btn{
+display: inline-block;
+margin-top: 10px;
+background: #f28c8c;
+color: white;
+padding: 8px 14px;
+border-radius: 12px;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+
+/* FORCE navbar text color */
+.navbar a,
+.navbar a:visited,
+.navbar a:active{
+    color: #5a2a27 !important;
+}
+
