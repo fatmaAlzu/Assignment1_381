@@ -113,6 +113,64 @@ footer{
     border-top: 3px solid #e4b48c;
     color: #5a2a27;
 }
+/* LOGIN PAGE */
+
+.login-container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.login-container form{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+/* Welcome text */
+.login-container h2{
+    margin-bottom: 20px;
+    color: #5a2a27;
+}
+
+/* Username & Password fields */
+.login-container input[type="text"],
+.login-container input[type="password"]{
+    background-color: #fff8ee;
+    border: 2px solid #e4b48c;
+    border-radius: 10px;
+    padding: 8px 12px;
+    width: 220px;
+    margin-top: 5px;
+}
+
+.login-container input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #f28c8c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+    padding: 8px 14px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
 /*MENU SECTION*/
 /* SEASON DROPDOWN */
 .season-select{
@@ -258,6 +316,38 @@ button:hover {
     background-color: #4da9ff;
 }
 
+/* ORDER SUMMARY PAGE  */
+
+main h2{
+    text-align: center;
+}
+
+.summary-table{
+    margin: 0 auto;                
+    border: 1px solid black;        
+    border-collapse: collapse;      
+    background-color: #fff8ee;      
+}
+
+.summary-table th,
+.summary-table td{
+    border: 1px solid black;
+    padding: 10px 15px;            
+    text-align: left;               
+}
+
+.btn-edit-confirm{
+    display: inline-block;
+    background-color: #f28c8c;    
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 14px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin: 8px;
+}
 
 
 /* FORCE navbar text color */
